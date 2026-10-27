@@ -1,30 +1,10 @@
-# Prácticas de Práctica Profesionalizante I
+# Práctica Profesionalizante I
 
-En este repositorio dejé respuestas breves a las actividades de los módulos I, II, III y IV. También armé un notebook sencillo para el análisis de datos que pide el módulo IV.
+Organicé este repositorio en dos partes para que el Trabajo Integrador no se confunda con las actividades y los apuntes de los módulos.
 
-Elegí el conjunto Iris porque es pequeño y tiene mediciones de flores con su especie. La consigna pide revisar variables, conteos, llegar a una conclusión y hacer un gráfico. No agregué un modelo predictivo porque ese punto no lo pide.
+- [`trabajo_integrador/README.md`](trabajo_integrador/README.md): la propuesta de análisis de concentración delictiva urbana que la profe revisó y aprobó como bien planteada.
+- [`preparacion_final/`](preparacion_final/README.md): respuestas que fui preparando para las consignas elegidas, apuntes para el final oral y dos prácticas con datos: Iris (módulo II) y Titanic (módulo IV).
 
-## Archivos
+La profe aclaró que las actividades optativas no formaban parte del Trabajo Integrador. Por eso dejé las actividades y los apuntes separados de la propuesta integradora.
 
-- respuestas_practicas.md: respuestas y glosarios.
-- notebooks/analisis_iris.ipynb: carga, revisión y gráfico del conjunto Iris.
-- grafico_largo_petalo.svg: gráfico que guardé al ejecutar el notebook.
-- requirements.txt: librerías que usé.
-
-## Cómo ejecutarlo
-
-1. Instalá las librerías con: pip install -r requirements.txt
-2. Abrí Jupyter desde la carpeta del repositorio.
-3. Abrí notebooks/analisis_iris.ipynb y ejecutá las celdas en orden.
-
-El notebook descarga el CSV desde UCI, así que necesita conexión a Internet.
-
-## Fuente de datos
-
-Fisher, R. (1936). Iris. UCI Machine Learning Repository.  
-https://archive.ics.uci.edu/dataset/53/iris
-
-El conjunto tiene 150 registros y está publicado con licencia CC BY 4.0. Dejé la atribución en este archivo y dentro del notebook.
-
-![Largo promedio del pétalo por especie](grafico_largo_petalo.svg)
-
+Este repositorio es de PP1. El proyecto de churn de la compañía de telecomunicaciones está en otro repositorio.
